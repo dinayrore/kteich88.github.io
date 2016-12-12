@@ -8,8 +8,6 @@ url: "https://kteich88.github.io/"
 
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /
-
 # Google tracking id
 
 google-tracking-id: ""
