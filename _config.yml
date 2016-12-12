@@ -136,16 +136,15 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/kteichmann"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/kteich87"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/kteich88"
+  - title: "gmail"
+    url: "mailto:kteich88@gmail.com"
+
 
 ############
 # 404 page #
