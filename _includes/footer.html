@@ -1,20 +1,26 @@
 <!-- Footer Start -->
 
 <footer>
-
-    {% include social-buttons.html %}
+  <div class="row">
+    <div class="footer-col col-md-4 text-center">
+      <h3>Contact Me</h3>
+      <p>{{ site.email }}</p>
+    </div>
+    <div class="footer-col col-md-4 text-center">
+      <h3>Around the Web</h3>
+      {% include social-buttons.html %}
+    </div>
+    <div class="footer-col col-md-4 text-center">
+        <h3>Life Collaborator</h3>
+        <p><a href="https://timothyhsieh27.github.io/">{{ site.collaborator }}</a></p>
+    </div>
+  </div>
 
     <p><br><br></p>
 
-    <div class="container text-center">
-        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
-        {% if site.keybase-in-footer %}
-        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
-                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
-        {% endif %}
-    </div>
+  <div class="container text-center">
+    <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
+  </div>
 </footer>
-
-<p><br><br><br><br><br><br></p>
 
 <!-- Footer End -->

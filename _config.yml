@@ -22,7 +22,7 @@ force-https: True
 
 lang: "en"
 author: "Kristine Teichmann"
-title: "{ Kristine Teichmann }"
+title: "{{ Kristine Teichmann }}"
 description: "Professional portfolio site of Kristine Teichmann, Back-End Engineer and Rubyist.  Blogging for tech and personal expression."
 keywords: "teichmann, kristine, professional, portfolio, ruby"
 favicon: "/img/favicon.ico"
@@ -120,6 +120,12 @@ social:
     url: "https://github.com/kteich88"
   - title: "twitter"
     url: "https://twitter.com/kteich87"
+
+############
+# Footer #
+############
+
+collaborator: "Timothy Hsieh"
 
 ############
 # 404 page #
