@@ -6,11 +6,9 @@ url: "https://kteich88.github.io/"
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-# NB! Without this *nothing* will work, because it's used in every path :)
-
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "kristine teichmann"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -25,8 +23,8 @@ force-https: True
 lang: "en"
 author: "Kristine Teichmann"
 title: "{ Kristine Teichmann }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Professional portfolio site of Kristine Teichmann, Back-End Engineer and Rubyist.  Blogging for tech and personal expression."
+keywords: "teichmann, kristine, professional, portfolio, ruby"
 favicon: "/img/favicon.ico"
 
 ################
@@ -49,13 +47,13 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "."
-  - text: ""
-  - text: ""
-  - text: ""
-  - text: ""
+  - text: "Life does not have to be perfect to be wonderful!"
+  - text: "Somewhere, something incredible is waiting to be known."
+  - text: "#{interpolate variable here}"
+  - text: "Mistakes are instances of growth. Never stop growing!"
+  - text: "Carpe diem."
 
-me-img: "/img/author.png"
+me-img: "/img/grayscale.png"
 
 ##############################
 # Color the browser elements #
@@ -63,36 +61,18 @@ me-img: "/img/author.png"
 color-browser: "#000000"
 apple-status-bar-style: "black"
 
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-# icon-36p: "/img/web-app/icon-36p.png"
-# icon-48p: "/img/web-app/icon-48p.png"
-# icon-72p: "/img/web-app/icon-72p.png"
-# icon-96p: "/img/web-app/icon-96p.png"
-# icon-144p: "/img/web-app/icon-144p.png"
-# icon-192p: "/img/web-app/icon-192p.png"
-
 ########
 # Blog #
 ########
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 100
 
 paginate: 5
 
-email-share: True
-twitter-share: True
-linkedin-share: True
-
-disqus-shortname: ""
+# Needed only if comments will be added to blog pages.
+# disqus-shortname: ""
 
 syntax-highlight: True
 
@@ -116,7 +96,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "kteich88@gmail.com"
 
 ################
 # Author Blurb #
@@ -126,7 +106,7 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "There is only one of me: Kristine Teichmann."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -136,27 +116,16 @@ author_blurb_image: "/img/author.png"
 social:
   - title: "linkedin"
     url: "https://www.linkedin.com/in/kteichmann"
-  - title: "twitter"
-    url: "https://twitter.com/kteich87"
   - title: "github"
     url: "https://github.com/kteich88"
-  - title: "gmail"
-    url: "mailto:kteich88@gmail.com"
-
+  - title: "twitter"
+    url: "https://twitter.com/kteich87"
 
 ############
 # 404 page #
 ############
 
 404-img: "/img/labtocat.png"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
 
 ################################################################################
 
