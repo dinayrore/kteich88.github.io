@@ -166,10 +166,9 @@ a {
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -444,4 +443,33 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
+}
+
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.form-control::-webkit-input-placeholder {
+  color: $secondary-color;
+}
+.form-control:-moz-placeholder {
+  color: $font-color;
+}
+.form-control::-moz-placeholder {
+  color: $font-color;
+}
+.form-control:-ms-input-placeholder {
+  color: $font-color;
 }
