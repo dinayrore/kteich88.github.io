@@ -142,8 +142,6 @@ collaborator: "Timothy Hsieh"
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
