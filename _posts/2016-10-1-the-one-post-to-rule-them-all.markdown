@@ -2,9 +2,9 @@
 layout: post
 title: The One Post To Rule Them All. The One Post To Guide Them.
 subtitle: My First Blog Post Will Enlighten Them All And In That Light Combine Them.
-date: 2016-10-01T12:00:00.000Z
-author: Kristine Teichmann
-header-img: img/computer_things.jpg
+date: 2016-10-01
+categories:
+tags:
 ---
 
 My first ever blog post! I was very hesitant about constructing a blog. Sure I've had Facebook for years; I just started a Twitter; and I had been meaning to start using Instagram more often, but blogging had only ever crossed my mind once (tumblr anyone?). I am a bit of an intro-extrovert. I tend to keep to myself so as not to inconvenience others. I find it hard to trust people and share information for fear that someone might turn my words around and use them against me to either hurt me or hurt others that I love. However, if you ask of me a question, I am sure to tell you about that which you inquired. I won't hold back. Ask me how I'm feeling and I will be completely honest with you. Why say anything at all if you don't mean what you say. Anyways, I digress.

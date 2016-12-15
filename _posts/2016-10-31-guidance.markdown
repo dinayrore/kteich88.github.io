@@ -2,9 +2,9 @@
 layout: post
 title: Wandering Thoughts So Lost So Jumbled
 subtitle: Yearning For More Guidance...
-date: 2016-10-31T12:00:00.000Z
-author: Kristine Teichmann
-header-img: img/phantom.jpg
+date: 2016-10-31
+categories:
+tags:
 ---
 
 A continuation of my journey as a TIY student: Yet again I find myself lost in thought and feelings. There is so much material being dumped into my brain that I ask myself, _how much material do I actually retain?_ Unintentional rhyming aside, my wandering thoughts are very jumbled: My blog posts have lost there direction and I am inconsistent with the frequency of my posts. Therefore, I have decided, as of today that future blog posts will not only contain my opinions, thoughts, and feelings (as these things do happen and drive my persona 😸 ), BUT, additionally, I will be sure to add more tips, tutorials, and my experience with code (so long as time permits).

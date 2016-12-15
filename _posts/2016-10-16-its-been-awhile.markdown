@@ -2,9 +2,9 @@
 layout: post
 title: Its Been Awhile...
 subtitle: 'Since I Last, Made My First Blog Post.'
-date: 2016-10-16T12:00:00.000Z
-author: Kristine Teichmann
-header-img: img/itsbeenawhile.jpg
+date: 2016-10-16
+categories:
+tags:
 ---
 
 I don't even know how or where to begin...Sometimes when life happens, it hits you all at once. This year in particular seems to be the year of life happenings for everyone. Needless to say, this year sucks! I lost my Godmother, my grandmother, I moved further away from my hometown, my family, and friends, I quit my job and embarked on a full time journey to become a splendid coder. I have never felt more stressed, uneasy and self-doubting, and yet I have never felt more at peace. This journey I am taking, though unconventional, is part of HIS greater plan for me, and I am happy to oblige. I have learned so much and harnessed my skills in a way I never imagined possible on my own. But I know that I am never alone, not when I have HIM, and not when I have my bubbies!

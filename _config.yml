@@ -71,9 +71,6 @@ post-preview-words: 100
 
 paginate: 5
 
-# Needed only if comments will be added to blog pages.
-# disqus-shortname: ""
-
 syntax-highlight: True
 
 ############
