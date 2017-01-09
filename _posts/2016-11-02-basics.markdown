@@ -30,7 +30,7 @@ Booleans!  Booleans are statements in code that may be true or false.  Boolean c
 
 Variables are similar to those we use in math, except they are used for more than just numbers.  Variables are the assignment of something to another thing.  In JS variables are declared in the following fashion:
 
-``` JS
+``` javaScript
 var name = 'Kristine';
 ```
 
