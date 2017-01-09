@@ -29,22 +29,35 @@ Cookie: Baz = Qux
 A response is usually a string or JSON (JavaScript Object Notation) sent back to the user from the API.  This light-weight data exchange format is easy to read, write and transfer back and forth, which is why JSON formatting is preferred overall.  There are several common HTTP methods and verbs, however these are the most common:
 
 POST = create
+
 GET = read, sort, search, filter
+
 PUT/PATCH = update
+
 DELETE = destroy
 
 Common HTTP status codes to use and look out for:
 
 200 = OK
+
 201 = created
+
 301 = moved permanently
+
 302 = found
+
 304 = not modified
+
 400 = bad request
+
 401 = unauthorized
+
 403 = forbidden
+
 404 = not found
+
 429 = too many requests
+
 500 = internal server error
 
 Now that we have dabbled a bit into everything else, here's a little more Rails talk for you!  Rails is a framework for web applications, software and APIs.  Some common mistakes by those not in the know: Ruby is NOT Rails and Rails is NOT Ruby, however, you cannot write a Rails app without Ruby (don't worry, we've all been there one time or another).  Rails follows a development pattern of MVC.  'M' stands for model, 'V' stands for views, and 'C' stands for controllers.  I intend to write a blog post entirely dedicated to MVC development in Rails, so more on that later.  For now, lets follow the same list pattern we've used thus far for this post, shall we?  Some frequently used Rails commands:
