@@ -1,6 +1,6 @@
 # Site settings
 title: "{{ Kristine Teichmann }}"
-description: "Professional portfolio site of Kristine Teichmann: Back-End Engineer and Rubyist.  Blogging for tech and personal expression."
+description: "Professional portfolio site of Kristine Teichmann: Back-End Engineer and Rubyist. Blogging for tech and personal expression."
 url: 'https://kteich88.github.io/'
 
 resume: 'https://drive.google.com/file/d/0B4rzBY8VJympRGdGSWpNTjZjRFU/view'
@@ -25,7 +25,7 @@ destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: rouge
+highlighter: green
 
 kramdown:
   # use Github Flavored Markdown
