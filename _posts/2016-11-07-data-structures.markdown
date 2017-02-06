@@ -17,14 +17,18 @@ The next group assignment was a bit open ended. We were allowed to create anythi
 
 You see, communication is a two way street if only one side of the road is open to communicating, traffic slows and production becomes well, less productive. Keeping an open mind and an open line of communication is important when working with others. I realized all too late that my over-willingness to comply with my front end teams every demand was not helping me nor them. However, as inexperienced as I was in API development, and with each new request from my front end team being entirely different from the last, I ran `rails new` again and again. I completed at least 5 different versions of our API from super secure token based to completely insecure open data. As Linkin Park would say, "I tried so hard and got so far, but in the end" I never saw the result of our groups front end design. I was baffled by our teams dysfunctional relationship and I only wish we could have communicated better. I learned the valuable lesson of speaking up for myself and making sure my voice was truly heard through this group project. Although I was the main communicator, my eagerness to comply and complete their every demand did not support our teams productive development. Teamwork makes the dreamwork, but only if all members of the team actively participate and communicate!
 
-Now is about a good a time as ever to get to the real important matter here: data structures. Data structures are defined in computer science as a way of organizing data so that a computer can use said data efficiently. Common data structures include hashes (a.k.a. dictionaries for some) and arrays. Lets hash this out.
+Now is about a good a time as ever to get to the real important matter here: data structures. Data structures are defined in computer science as a way of organizing data so that a computer can use said data efficiently. Common data structures include hashes (a.k.a. dictionary, map, associative array) and arrays. Lets hash this out!
 
-Hashes are represented by curly brackets. 
+Hashes are represented by curly brackets {}. Information is stored in a hash by unordered key value pairs. In Ruby, a colon symbol (:) or rocket (=>) separates and distinguishes between what is a key and what is a value per paired input. To create an empty hash, simply assign curly brackets to a variable:
 
+```ruby
+hash = {}
+# OR
+hash = Hash.new
 
- Qualities of Data Structures, Arrays, Hashes, etc.
+# it is worth mentioning that convention is to set the variable to an empty hash over utilizing the Hash Class.
+```
 
+An array is a collection of values sorted by integer indexes. An array can be created similarly to that of a hash, except the Array class would be called upon instead. There are so many useful methods for both classes, which in IRB (Interactive Ruby Shell) can be accessed using the `.methods` call.
 
-Just as data structures communicate messages through a program and bugs may arise, so too do the developers working on said program need to effectively communicate to get the job done. Finding a positive outlet to manage situations of disagreement and communicating regularly with ones team will ultimately yield the greatest success!
-
-Next issue... While, Until, For, Each, Loops
+Just as data structures communicate messages through a program and bugs may arise, so too must the developers working on said program need to effectively communicate with one another to get the job done right. Finding a positive outlet to manage situations of disagreement and communicating regularly with ones team will ultimately yield the greatest success!
