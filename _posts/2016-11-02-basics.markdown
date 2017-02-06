@@ -5,57 +5,57 @@ categories:
 tags:
 ---
 
-In continuation with my previous posts, and in an attempt to recollect my experience at TIY I will continue my technical blogging by going over some code basics.  But first, a thought just occurred to me.  I remembered something very important from the summer before TIY.  I recalled the struggle of going into DC for my Iron Yard interviews (DC is terrifying btw... SO MANY PEOPLE), the anxiety of awaiting their response, and my final decision to give up teaching and to not take on a summer job so that I could use that time to go on a farewell tour across multiple states.  That summer was probably one of the most wholesome summers of my entire life.  My Bubbies and I traveled back and forth visiting all of our family and friends before packing up our lives, pushing through the pre-work, and sleeping on the floor of our new apartment in NC. In fact we were completely moved in only a full 24 hours before our first day at TIY, and my parents drove all the way from my hometown in PA to help us move in. Thanks Mom & Dad! As a side note, today is my mother's 50th birthday.  She has been through more struggles in life than I would care to experience.   But through it all, she did her best to give my siblings and I all that she did not obtain in her childhood and guide us in the best direction she could.  Thank you mom!  I may be a pain sometimes, but it is always out of love that I push your buttons!   
+In continuation with my previous posts, and in an attempt to recollect my experience at TIY I will continue my technical blogging by going over some code basics. But first, a thought just occurred to me. I remembered something very important from the summer before TIY. I recalled the struggle of going into DC for my Iron Yard interviews (DC is terrifying btw... SO MANY PEOPLE), the anxiety of awaiting their response, and my final decision to give up teaching and to not take on a summer job so that I could use that time to go on a farewell tour across multiple states. That summer was probably one of the most wholesome summers of my entire life. My Bubbies and I traveled back and forth visiting all of our family and friends before packing up our lives, pushing through the pre-work, and sleeping on the floor of our new apartment in NC. In fact we were completely moved in only a full 24 hours before our first day at TIY, and my parents drove all the way from my hometown in PA to help us move in. Thanks Mom & Dad! As a side note, today is my mother's 50th birthday. She has been through more struggles in life than I would care to experience. But through it all, she did her best to give my siblings and I all that she did not obtain in her childhood and guide us in the best direction she could. Thank you mom! I may be a pain sometimes, but it is always out of love that I push your buttons!
 
-Now then, rewind a day or two prior to our completed move, and we arrive at our TIY cohort 8 installation party. I remembered feeling a bit anxious, overwhelmed even as some of the other "recruits" seemed to already know what they were doing.  Their machines were fully functional, they typed and navigated their MacBooks like pros.  Some of them had even finished all the pre-work, or they were working on it for the multiple consecutive time in a row.  *What is this feeling?* I thought *Imposter syndrome, already?  No.  Everyone's journey to this place in life is different, and you are right where you need to be.  Plus, you are so close to the end of your pre-work. You just need to understand these last few problems.*  Coming from the background of a professional educator, I know when someone is trying to learn and when someone is just trying to get through the material in front of them.  I was pushing myself too critically and beyond the point at which I felt I could no longer think.  Some of the more simple basics of code that which I felt most comfortable were slipping past my memory and I was solely focused on completing my pre-work and not truly learning the material.  It was at that moment, I had to stop, and at the same moment my first friend in NC, Jenn, stepped in.  Jenn is the kindest soul, so vibrant and bright.  She had completed the pre-work multiple times and in seeing me struggle asked if she could help.  I did not know it then, and I will admit to having felt intimidated by her in the beginning, but Jenn was a wonderful collaborator and the best person to come to when you felt stuck.
+Now then, rewind a day or two prior to our completed move, and we arrive at our TIY cohort 8 installation party. I remembered feeling a bit anxious, overwhelmed even as some of the other "recruits" seemed to already know what they were doing. Their machines were fully functional, they typed and navigated their MacBooks like pros. Some of them had even finished all the pre-work, or they were working on it for the multiple consecutive time in a row. *What is this feeling?* I thought *Imposter syndrome, already? No. Everyone's journey to this place in life is different, and you are right where you need to be. Plus, you are so close to the end of your pre-work. You just need to understand these last few problems.* Coming from the background of a professional educator, I know when someone is trying to learn and when someone is just trying to get through the material in front of them. I was pushing myself too critically and beyond the point at which I felt I could no longer think. Some of the more simple basics of code that which I felt most comfortable were slipping past my memory and I was solely focused on completing my pre-work and not truly learning the material. It was at that moment, I had to stop, and at the same moment my first friend in NC, Jenn, stepped in. Jenn is the kindest soul, so vibrant and bright. She had completed the pre-work multiple times and in seeing me struggle asked if she could help. I did not know it then, and I will admit to having felt intimidated by her in the beginning, but Jenn was a wonderful collaborator and the best person to come to when you felt stuck.
 
 Now on to some basics!
 
-Numbers (Class Fixnum) in code can be referred to as: integers (any number positive or negative) or floats (decimal numbers).  Simple enough, right?  Well it turns out that common mathematical functions work the same way too.  That is to say `+` is addition, `-` is subtraction, `*` is multiplication, `/` is division, and `%` represents a remainder.  Modulo or `%` is probably the only new feature thus far.  
+Numbers (Class Fixnum) in code can be referred to as: integers (any number positive or negative) or floats (decimal numbers). Simple enough, right? Well it turns out that common mathematical functions work the same way too. That is to say `+` is addition, `-` is subtraction, `*` is multiplication, `/` is division, and `%` represents a remainder. Modulo or `%` is probably the only new feature thus far.
 
-Strings (Class String) are words in code.  In Ruby, strings are attainable through the `gets` command.  Using this command provides the user with an input space, which is taken as a string.  Strings can be "double quoted" or 'single quoted.'  In Ruby, single quotes are preferred unless you are interpolating a variable or using special characters.  For instance:
+Strings (Class String) are words in code. In Ruby, strings are attainable through the `gets` command. Using this command provides the user with an input space, which is taken as a string. Strings can be "double quoted" or 'single quoted.' In Ruby, single quotes are preferred unless you are interpolating a variable or using special characters. For instance:
 
 ``` ruby
 def greeting(name)
-  puts "Greetings, #{name}"
+ puts "Greetings, #{name}"
 end
 
 greeting('Kristine')
 #=> prints 'Greetings, Kristine' to STDOUT.
 ```
 
-If I instead tried to use single quotes the output for this method would be 'Hi, #{name}.'  String interpolation can only be completed with double quotes.  There is also string concatenation.  String concatenation is the joining of multiple strings.  In JS the `+` operator can be used to perform string concatenation, however in Ruby the .join() method is preferred.
+If I instead tried to use single quotes the output for this method would be 'Hi, #{name}.' String interpolation can only be completed with double quotes. There is also string concatenation. String concatenation is the joining of multiple strings. In JS the `+` operator can be used to perform string concatenation, however in Ruby the .join() method is preferred.
 
-Booleans!  Booleans are statements in code that may be true or false.  Boolean comparison operators are: `<` less than, `>` greater than, `==` equal to, `<=` less than or equal to, `>=` greater than or equal to, and `!=` not equal to.  I have found myself using the `==` and `!=` operators more often than the rest.  Some other useful operators are `||` for 'or', and `&&` for, well 'and.'
+Booleans! Booleans are statements in code that may be true or false. Boolean comparison operators are: `<` less than, `>` greater than, `==` equal to, `<=` less than or equal to, `>=` greater than or equal to, and `!=` not equal to. I have found myself using the `==` and `!=` operators more often than the rest. Some other useful operators are `||` for 'or', and `&&` for, well 'and.'
 
-Variables are similar to those we use in math, except they are used for more than just numbers.  Variables are the assignment of something to another thing.  In JS variables are declared in the following fashion:
+Variables are similar to those we use in math, except they are used for more than just numbers. Variables are the assignment of something to another thing. In JS variables are declared in the following fashion:
 
 ``` javaScript
 var name = 'Kristine';
 ```
 
-Now the variable, 'name' can be used anywhere in the same document as the rest of this JS code.  In Ruby, variables are defined a bit differently:
+Now the variable, 'name' can be used anywhere in the same document as the rest of this JS code. In Ruby, variables are defined a bit differently:
 
 ```ruby
 name = 'Kristine'
 ```
 
- Variables can be Numbers or Strings.  But if you are using a string for a variable, don't forget your quotations, otherwise you may get an error message as your STDOUT.
+ Variables can be Numbers or Strings. But if you are using a string for a variable, don't forget your quotations, otherwise you may get an error message as your STDOUT.
 
- Now you may be wondering: *STDOUT? What does that mean?* Well, there are three I/O connections (and before you ask, I/O stands for input/output).  STDIN is referred to as the standard input, STDOUT is the standard output, and STDERR is standard error.  We already covered one input strategy when we first discussed strings.  You'll never `gets` what it is...
+ Now you may be wondering: *STDOUT? What does that mean?* Well, there are three I/O connections (and before you ask, I/O stands for input/output). STDIN is referred to as the standard input, STDOUT is the standard output, and STDERR is standard error. We already covered one input strategy when we first discussed strings. You'll never `gets` what it is...
 
  `puts` is a STDOUT command.
 
  The command `chomp` (not to be confused with a chain chomp) can be used in conjunction with gets to receive STDIN.
 
- `strip`  returns a copy of a string with the whitespace removed.
+ `strip` returns a copy of a string with the whitespace removed.
 
- The next topic we covered in my journal of TIY is control flow.  However, I have decided to put this discussion on hold for the moment.  I promise to come back to the `if`, `elsif`, `else`, and `end` conditions in a later post about loops.  Additionally, I intend to cover error handling in the same post as well.  Which leaves me with my final topic of the day, type conversions.  In Ruby you can convert variables to integers by adding the method `.to_i` after it.  There is also `.to_f` and `.to_s` for conversions to floats and strings respectively.
+ The next topic we covered in my journal of TIY is control flow. However, I have decided to put this discussion on hold for the moment. I promise to come back to the `if`, `elsif`, `else`, and `end` conditions in a later post about loops. Additionally, I intend to cover error handling in the same post as well. Which leaves me with my final topic of the day, type conversions. In Ruby you can convert variables to integers by adding the method `.to_i` after it. There is also `.to_f` and `.to_s` for conversions to floats and strings respectively.
 
-Well that about covers all of the basics of code for now.  Its a lot, I know, or maybe it isn't.  Everyone learns at a different rate.  Some people get things much quicker than others.  For some commitment to memory takes longer than simply reading an enthusiastic blog post.  My goal here is to recount my days at TIY share my experience.  I do not know all the answers, nor will I ever claim to know it all, but I aspire to learn all that I can!  And for me learning is repetition, learning is teaching, and learning is commitment.
+Well that about covers all of the basics of code for now. Its a lot, I know, or maybe it isn't. Everyone learns at a different rate. Some people get things much quicker than others. For some commitment to memory takes longer than simply reading an enthusiastic blog post. My goal here is to recount my days at TIY share my experience. I do not know all the answers, nor will I ever claim to know it all, but I aspire to learn all that I can! And for me learning is repetition, learning is teaching, and learning is commitment.
 
-This video was recommended to our by our instructor: https://www.youtube.com/watch?v=hY14Er6JX2s.  I too would recommend this video to anyone who feels they need assistance in giving and getting technical help, because even the best of us need a little help sometimes.
+This video was recommended to our by our instructor: https://www.youtube.com/watch?v=hY14Er6JX2s. I too would recommend this video to anyone who feels they need assistance in giving and getting technical help, because even the best of us need a little help sometimes.
 
-Also, every Rubyist should know and read this: http://poignant.guide/.  It's more than just a guide it is the very essence of the language of Ruby itself and the people who enjoy it!
+Also, every Rubyist should know and read this: http://poignant.guide/. It's more than just a guide it is the very essence of the language of Ruby itself and the people who enjoy it!
 
-I set off on this journey lead by faith to make a difference in the world.   But I never lost sight of where it all began, at the roots, the basics!
+I set off on this journey lead by faith to make a difference in the world. But I never lost sight of where it all began, at the roots, the basics!
