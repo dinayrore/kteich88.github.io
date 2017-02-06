@@ -19,6 +19,7 @@ You see, communication is a two way street if only one side of the road is open 
 
 Now is about a good a time as ever to get to the real important matter here: data structures. Data structures Qualities of Data Structures, Arrays, Hashes, etc.
 
-Wrap up by mentioning how data structures communicate messages throughout a program and problems may arise, but finding a positive outlet to manage these situations ...something along those lines...
+
+Just as data structures communicate messages through a program and bugs may arise, so too do the developers working on said program need to effectively communicate to get the job done. Finding a positive outlet to manage situations of disagreement and communicating regularly with ones team will ultimately yield the greatest success!
 
 Next issue... While, Until, For, Each, Loops
