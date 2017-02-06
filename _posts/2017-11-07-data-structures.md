@@ -1,5 +1,5 @@
 ---
-title: Lets Hash This Out: Data Structures
+title: Lets Hash This Out, Data Structures
 date: 2016-11-07
 categories:
 tags:
